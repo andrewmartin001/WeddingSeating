@@ -1,7 +1,14 @@
-'''uses simulated annealing to minimize discomfort.
+'''
+Copyright Andrew Martin 2016
+uses simulated annealing to minimize discomfort.
 Similar to the minimize_discomfort.py: it randomly swaps participants,
 but simulated annealing sometimes accepts swap
-even if this raises the discomfort. Prevents sticking in local minimum'''
+even if this raises the discomfort. Prevents sticking in local minimum
+
+"input.csv" should exist and contain an upper-triangular array of people scores
+
+usage: python simulated_annealing_discomfort.py
+'''
 
 import numpy as np
 import copy as cp

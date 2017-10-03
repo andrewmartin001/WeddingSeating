@@ -1,4 +1,6 @@
-'''minimizes discomfort between individuals.
+'''
+Copyright Andrew Martin 2017
+minimizes discomfort between individuals.
 Randomly swaps participants and rejects if this raises the discomfort'''
 import numpy as np
 import copy as cp

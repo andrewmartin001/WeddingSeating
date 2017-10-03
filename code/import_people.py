@@ -1,3 +1,7 @@
+'''
+Copyright Andrew Martin 2017
+tools to import people's relationship scores from "input.csv"'''
+
 import csv
 import numpy
 reader = csv.reader(open("input.csv", "rU"), delimiter=",")
